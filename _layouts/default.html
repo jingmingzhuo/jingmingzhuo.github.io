@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
+    </title>
+    <meta name="description" content="{{ site.description }}" />
+    <script>
+      (function () {
+        var savedTheme = null;
+        try {
+          savedTheme = localStorage.getItem("homepageTheme");
+        } catch (error) {}
+        if (savedTheme === "dark" || savedTheme === "light") {
+          document.documentElement.setAttribute("data-theme", savedTheme);
+          return;
+        }
+        var systemDark =
+          window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.setAttribute("data-theme", systemDark ? "dark" : "light");
+      })();
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
+  </head>
+  <body class="site-body">
+    <nav class="navbar site-navbar" role="navigation" aria-label="main">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+          <div class="navbar-burger-wrap">
+            <button
+              class="navbar-burger"
+              type="button"
+              aria-label="Toggle navigation"
+              aria-expanded="false"
+              data-target="mainNavbarMenu"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+        <div id="mainNavbarMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#bio">Bio</a>
+            <a class="navbar-item" href="#research">Research</a>
+            <a class="navbar-item" href="#news">News</a>
+            <a class="navbar-item" href="#publications">Publications</a>
+            <a class="navbar-item" href="#projects">Projects</a>
+            <a class="navbar-item" href="#education">Education</a>
+            <a class="navbar-item" href="#experience">Experience</a>
+            <a class="navbar-item" href="#service">Service</a>
+            <a class="navbar-item" href="#misc">Misc</a>
+            <button
+              id="theme-toggle"
+              class="navbar-item theme-toggle"
+              type="button"
+              aria-label="Switch to dark mode"
+              title="Toggle theme"
+            >
+              <span class="theme-toggle-icon" aria-hidden="true">
+                <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8" />
+                  <path
+                    d="M12 2.8V5.1M12 18.9V21.2M21.2 12H18.9M5.1 12H2.8M18.6 5.4L17 7M7 17L5.4 18.6M18.6 18.6L17 17M7 7L5.4 5.4"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                  />
+                </svg>
+                <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M20.1 14.9A8.6 8.6 0 1 1 9.1 3.9 6.9 6.9 0 1 0 20.1 14.9Z"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-shell">
+      <div class="container">{{ content }}</div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="footer-reference">
+          Created &amp; maintained by {{ site.title }} with awesome tools:
+          <a
+            href="https://github.com/luost26/academic-homepage"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-solid fa-pencil-ruler" aria-hidden="true"></i> academic-homepage
+          </a>,
+          <a
+            href="https://bulma.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Built with Bulma"
+          >
+            <i class="fa-solid fa-cube" aria-hidden="true"></i> Bulma
+          </a>,
+          <a
+            href="https://jekyllrb.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Powered by Jekyll"
+          >
+            <i class="fa-solid fa-vial" aria-hidden="true"></i> Jekyll
+          </a>,
+          <a
+            href="https://pages.github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Hosted on GitHub Pages"
+          >
+            <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub Pages
+          </a>, and
+          <a
+            href="https://openai.com/codex/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Built with Codex"
+          >
+            <i class="fa-solid fa-robot" aria-hidden="true"></i> Codex
+          </a>. Last updated: Feb. 27, 2026.
+        </p>
+      </div>
+    </footer>
+
+    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+profile:
+  name: "Jingming Zhuo"
+  role: "M.S. Student in ECE"
+  affiliation: "University of Washington"
+  bio: 'I am currently a M.S. student at the University of Washington. At UW, I am fortunate to work with Ph.D. Student <a class="bio-name-link" href="https://rulinshao.github.io/" target="_blank" rel="noopener noreferrer">Rulin Shao</a>, Prof. <a class="bio-name-link" href="https://koh.pw/" target="_blank" rel="noopener noreferrer">Pang Wei Koh</a>, and Prof. <a class="bio-name-link" href="https://akariasai.com/" target="_blank" rel="noopener noreferrer">Akari Asai</a>. I used to intern at ByteDance Seed and Shanghai AI Laboratory. I obtained my B.S. in Computer Science from Jilin University.'
+  avatar: "JZ"
+  photo: "/jingming_img.png"
+  links:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=C7RtP4oAAAAJ&hl=en&oi=ao"
+      icon: "ai ai-google-scholar"
+    - label: "GitHub"
+      url: "https://github.com/jingmingzhuo"
+      icon: "fa-brands fa-github"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/jingming-zhuo-52419a310/"
+      icon: "fa-brands fa-linkedin"
+    - label: "Email"
+      url: "mailto:jingmingzhuo@gmail.com"
+      icon: "fa-solid fa-envelope"
+
+research_interests:
+  title: "Research Interests"
+  items:
+    - "Deep Research Agents"
+    - "Test time scaling"
+    - "Human LLM collaboration"
+
+news:
+  title: "News"
+  items:
+    - date: "Feb. 2026"
+      text: "Our <a class=\"news-link\" href=\"https://www.dr-tulu.org/\" target=\"_blank\" rel=\"noopener noreferrer\">DR Tulu demo</a> is released, please check it out!"
+    - date: "Nov. 2025"
+      text: "Our <a class=\"news-link\" href=\"https://arxiv.org/pdf/2511.19399\" target=\"_blank\" rel=\"noopener noreferrer\">DR Tulu paper</a> is released on arXiv, this is the first fully open source deep research agent!"
+    - date: "Sep. 2025"
+      text: "Started my M.S. journey at UW!"
+
+education:
+  title: "Education"
+  items:
+    - degree: "M.S. in ECE"
+      school: "University of Washington"
+      school_badge: "/assets/img/uw-logo.svg"
+      school_badge_alt: "University of Washington logo"
+      period: "Sep 2025 - Jun 2027 (Expected)"
+    - degree: "B.S. in CS"
+      school: "Jilin University"
+      school_badge: "/assets/img/jlu-logo.png"
+      school_badge_alt: "Jilin University logo"
+      details: "Sep. 2020 - Jun. 2024"
+
+experience:
+  title: "Experience"
+  items:
+    - role: "Research Assistant"
+      organization: "UW NLP"
+      period: "Sep. 2025 - Present"
+      details: "Working on deep research agents."
+    - role: "Research Intern"
+      organization: "ByteDance Seed"
+      period: "Mar. 2025 - Sep. 2025"
+      details: "Worked on reasoning-intensive retrieval."
+    - role: "Research Intern"
+      organization: "Shanghai AI Laboratory"
+      period: "Sep. 2023 - May. 2024"
+      details: "Worked on LLM post-training and evaluation."
+
+publications:
+  title: "Publications"
+  items:
+    - title: "DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research"
+      authors: "Rulin Shao*, Akari Asai*, Shannon Zejiang Shen*, Hamish Ivison*, Varsha Kishore†, Jingming Zhuo† (core contributor), Xinran Zhao, Molly Park, Samuel G. Finlayson, David Sontag, Tyler Murray, Sewon Min, Pradeep Dasigi, Luca Soldaini, Faeze Brahman, Wen-tau Yih, Tongshuang Wu, Luke Zettlemoyer, Yoon Kim, Hannaneh Hajishirzi, Pang Wei Koh"
+      venue: "Preprint"
+      year: 2025
+      badge: "Core Contributor"
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/pdf/2511.19399"
+        - label: "Code"
+          url: "https://github.com/rlresearch/dr-tulu"
+        - label: "Demo"
+          url: "https://www.dr-tulu.org/"
+    - title: "ProSA: Assessing and Understanding the Prompt Sensitivity of LLMs"
+      authors: "Jingming Zhuo*, Songyang Zhang*, Xinyu Fang, Haodong Duan, Dahua Lin, Kai Chen"
+      venue: "EMNLP Findings"
+      year: 2024
+      badge: "First Author*"
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/pdf/2410.12405"
+        - label: "Code"
+          url: "https://github.com/open-compass/ProSA"
+    - title: "InternLM2 Technical Report"
+      authors: "Zheng Cai, ..., Jingming Zhuo, ... (alphabetical order by last name)"
+      venue: "Technical Report"
+      year: 2024
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/pdf/2403.17297"
+        - label: "GitHub"
+          url: "https://github.com/InternLM/InternLM"
+    - title: "T-eval: Evaluating the Tool Utilization Capability Step by Step"
+      authors: "Zehui Chen*, Weihua Du*, Wenwei Zhang*, Kuikun Liu, Jiangning Liu, Miao Zheng, Jingming Zhuo, Songyang Zhang, Dahua Lin, Kai Chen, Feng Zhao"
+      venue: "ACL"
+      year: 2024
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/pdf/2312.14033"
+        - label: "GitHub"
+          url: "https://github.com/open-compass/T-Eval"
+
+projects:
+  title: "Projects"
+  items:
+    - name: "DR Tulu"
+      description: "A reinforcement learning framework for deep research that uses evolving rubrics to improve planning, evidence grounding, and long-form report quality."
+      url: "https://github.com/rlresearch/dr-tulu"
+    - name: "Seed1.5-Embedding"
+      description: "A strong embedding model focused on retrieval and reasoning quality, designed for robust performance on benchmarks such as MTEB and BRIGHT."
+      url: "https://seed1-5-embedding.github.io"
+    - name: "InternLM"
+      description: "An open large language model family with training, alignment, and evaluation components for general-purpose NLP and agent-style use cases."
+      url: "https://github.com/InternLM/InternLM"
+    - name: "OpenCompass"
+      description: "An extensible LLM evaluation platform that supports diverse benchmarks across code, agents, long context, math, and instruction following."
+      url: "https://github.com/open-compass/opencompass"
+
+service:
+  title: "Service"
+  items:
+    - role: "Reviewer"
+      details: "ICLR, ACL, EMNLP, NAACL, COLING"
+
+misc:
+  title: "Misc"
+  items:
+    - label: "Piano"
+      icon: "fa-solid fa-music"
+    - label: "Music"
+      icon: "fa-solid fa-headphones"
+    - label: "Travel"
+      icon: "fa-solid fa-plane"
+    - label: "Snowboard"
+      icon: "fa-solid fa-person-snowboarding"

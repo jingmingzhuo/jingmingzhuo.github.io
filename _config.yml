@@ -1,0 +1,10 @@
+title: "Jingming Zhuo"
+description: "Personal academic homepage of Jingming Zhuo."
+url: ""
+baseurl: ""
+timezone: "America/Los_Angeles"
+markdown: kramdown
+theme: null
+
+exclude:
+  - README.md

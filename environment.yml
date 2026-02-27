@@ -1,0 +1,9 @@
+name: jekyll-bulma-homepage
+channels:
+  - conda-forge
+dependencies:
+  - ruby=3.2
+  - clang=21
+  - make
+  - gcc
+  - gxx

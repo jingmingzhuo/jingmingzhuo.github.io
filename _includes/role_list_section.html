@@ -1,0 +1,29 @@
+{% assign section_id = include.section_id %}
+{% assign section_title = include.title %}
+{% assign items = include.items %}
+{% assign primary_key = include.primary_key %}
+{% assign secondary_key = include.secondary_key %}
+{% assign tertiary_key = include.tertiary_key %}
+{% assign period_key = include.period_key | default: "period" %}
+
+<section id="{{ section_id }}" class="card-shell section-card">
+  <h2 class="section-heading">{{ section_title }}</h2>
+  <ul class="service-list">
+    {% for item in items %}
+      <li class="service-item">
+        {% if primary_key and primary_key != "" and item[primary_key] %}
+          <p class="service-role">{{ item[primary_key] }}</p>
+        {% endif %}
+        {% if secondary_key and secondary_key != "" and item[secondary_key] and item[secondary_key] != "" %}
+          <p class="service-details">{{ item[secondary_key] }}</p>
+        {% endif %}
+        {% if tertiary_key and tertiary_key != "" and item[tertiary_key] and item[tertiary_key] != "" %}
+          <p class="service-details">{{ item[tertiary_key] }}</p>
+        {% endif %}
+        {% if period_key and item[period_key] and item[period_key] != "" %}
+          <p class="service-period">{{ item[period_key] }}</p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
