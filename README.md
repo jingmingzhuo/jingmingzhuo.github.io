@@ -63,3 +63,8 @@ Edit these files:
 - publication titles and venues
 - profile links (scholar/github/cv/email)
 - avatar initials (`YN`)
+
+## License
+
+- Code: [MIT](LICENSE)
+- Site content (text, images, publications list): Copyright © Jingming Zhuo, all rights reserved.

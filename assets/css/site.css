@@ -718,6 +718,19 @@ html[data-theme="dark"] .author-highlight {
   color: var(--link);
 }
 
+.footer-license {
+  margin-top: 0.18rem !important;
+  color: var(--muted);
+}
+
+.footer-license a {
+  color: var(--muted);
+}
+
+.footer-license a:hover {
+  color: var(--link);
+}
+
 [id] {
   scroll-margin-top: 84px;
 }
