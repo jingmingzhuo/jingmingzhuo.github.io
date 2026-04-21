@@ -29,6 +29,8 @@ research_interests:
 news:
   title: "News"
   items:
+    - date: "Apr. 2026"
+      text: "Our new method for kernel generation, <a class=\"news-link\" href=\"https://arxiv.org/pdf/2604.16625\" target=\"_blank\" rel=\"noopener noreferrer\">AdaExplore</a>, is now available. Check out the paper!"
     - date: "Feb. 2026"
       text: "Our <a class=\"news-link\" href=\"https://www.dr-tulu.org/\" target=\"_blank\" rel=\"noopener noreferrer\">DR Tulu demo</a> is released, please check it out!"
     - date: "Nov. 2025"
@@ -67,8 +69,17 @@ experience:
       details: "Worked on LLM post-training and evaluation."
 
 publications:
-  title: "Publications"
+  title: "Selected Papers"
   items:
+    - title: "AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation"
+      authors: "Weihua Du, Jingming Zhuo, Yixin Dong, Andre Wang He, Weiwei Sun, Zeyu Zheng, Manupa Karunaratne, Ivan Fox, Tim Dettmers, Tianqi Chen, Yiming Yang, Sean Welleck"
+      venue: "Preprint"
+      year: 2026
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/pdf/2604.16625"
+        - label: "Code"
+          url: "https://github.com/StigLidu/AdaExplore"
     - title: "DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research"
       authors: "Rulin Shao*, Akari Asai*, Shannon Zejiang Shen*, Hamish Ivison*, Varsha Kishore†, Jingming Zhuo† (core contributor), Xinran Zhao, Molly Park, Samuel G. Finlayson, David Sontag, Tyler Murray, Sewon Min, Pradeep Dasigi, Luca Soldaini, Faeze Brahman, Wen-tau Yih, Tongshuang Wu, Luke Zettlemoyer, Yoon Kim, Hannaneh Hajishirzi, Pang Wei Koh"
       venue: "Preprint"
@@ -100,15 +111,6 @@ publications:
           url: "https://arxiv.org/pdf/2403.17297"
         - label: "GitHub"
           url: "https://github.com/InternLM/InternLM"
-    - title: "T-eval: Evaluating the Tool Utilization Capability Step by Step"
-      authors: "Zehui Chen*, Weihua Du*, Wenwei Zhang*, Kuikun Liu, Jiangning Liu, Miao Zheng, Jingming Zhuo, Songyang Zhang, Dahua Lin, Kai Chen, Feng Zhao"
-      venue: "ACL"
-      year: 2024
-      links:
-        - label: "Paper"
-          url: "https://arxiv.org/pdf/2312.14033"
-        - label: "GitHub"
-          url: "https://github.com/open-compass/T-Eval"
 
 projects:
   title: "Projects"
@@ -130,7 +132,7 @@ service:
   title: "Service"
   items:
     - role: "Reviewer"
-      details: "ICLR, ICML, ACL, EMNLP, NAACL, COLING"
+      details: "ICLR, ICML, COLM, ACL, EMNLP, NAACL, COLING"
 
 misc:
   title: "Misc"
