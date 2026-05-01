@@ -410,6 +410,15 @@ html[data-theme="dark"] .theme-icon-moon {
   font-size: 0.95rem;
 }
 
+.news-spotlight {
+  color: #ff0000;
+  font-weight: 800;
+}
+
+html[data-theme="dark"] .news-spotlight {
+  color: #ff4d4d;
+}
+
 .publication-list {
   display: grid;
   gap: 0.72rem;
@@ -468,12 +477,13 @@ html[data-theme="dark"] .theme-icon-moon {
   letter-spacing: 0.01em;
 }
 
-.publication-year {
-  font-size: 0.92rem;
-  padding: 0.05rem 0.36rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--surface-soft);
+.publication-spotlight {
+  color: #ff0000;
+  font-weight: 900;
+}
+
+html[data-theme="dark"] .publication-spotlight {
+  color: #ff4d4d;
 }
 
 .pub-links {

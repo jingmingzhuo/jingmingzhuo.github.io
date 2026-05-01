@@ -30,6 +30,8 @@ news:
   title: "News"
   items:
     - date: "Apr. 2026"
+      text: "Our <a class=\"news-link\" href=\"https://arxiv.org/pdf/2511.19399\" target=\"_blank\" rel=\"noopener noreferrer\">DR Tulu</a> has been accepted to ICML 2026 and selected as a <span class=\"news-spotlight\">Spotlight (2%)</span>!"
+    - date: "Apr. 2026"
       text: "Our new method for kernel generation, <a class=\"news-link\" href=\"https://arxiv.org/pdf/2604.16625\" target=\"_blank\" rel=\"noopener noreferrer\">AdaExplore</a>, is now available. Check out the paper!"
     - date: "Feb. 2026"
       text: "Our <a class=\"news-link\" href=\"https://www.dr-tulu.org/\" target=\"_blank\" rel=\"noopener noreferrer\">DR Tulu demo</a> is released, please check it out!"
@@ -73,7 +75,7 @@ publications:
   items:
     - title: "AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation"
       authors: "Weihua Du, Jingming Zhuo, Yixin Dong, Andre Wang He, Weiwei Sun, Zeyu Zheng, Manupa Karunaratne, Ivan Fox, Tim Dettmers, Tianqi Chen, Yiming Yang, Sean Welleck"
-      venue: "Preprint"
+      venue: "Preprint 2026"
       year: 2026
       links:
         - label: "Paper"
@@ -82,8 +84,8 @@ publications:
           url: "https://github.com/StigLidu/AdaExplore"
     - title: "DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research"
       authors: "Rulin Shao*, Akari Asai*, Shannon Zejiang Shen*, Hamish Ivison*, Varsha Kishore†, Jingming Zhuo† (core contributor), Xinran Zhao, Molly Park, Samuel G. Finlayson, David Sontag, Tyler Murray, Sewon Min, Pradeep Dasigi, Luca Soldaini, Faeze Brahman, Wen-tau Yih, Tongshuang Wu, Luke Zettlemoyer, Yoon Kim, Hannaneh Hajishirzi, Pang Wei Koh"
-      venue: "Preprint"
-      year: 2025
+      venue: "ICML 2026, <strong class=\"publication-spotlight\">Spotlight</strong>"
+      year: 2026
       badge: "Core Contributor"
       links:
         - label: "Paper"
@@ -94,7 +96,7 @@ publications:
           url: "https://www.dr-tulu.org/"
     - title: "ProSA: Assessing and Understanding the Prompt Sensitivity of LLMs"
       authors: "Jingming Zhuo*, Songyang Zhang*, Xinyu Fang, Haodong Duan, Dahua Lin, Kai Chen"
-      venue: "EMNLP Findings"
+      venue: "EMNLP 2024, Findings"
       year: 2024
       badge: "First Author*"
       links:
@@ -104,7 +106,7 @@ publications:
           url: "https://github.com/open-compass/ProSA"
     - title: "InternLM2 Technical Report"
       authors: "Zheng Cai, ..., Jingming Zhuo, ... (alphabetical order by last name)"
-      venue: "Technical Report"
+      venue: "Technical Report 2024"
       year: 2024
       links:
         - label: "Paper"

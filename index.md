@@ -100,7 +100,6 @@ title: Home
             <p class="publication-authors">{{ authors_text }}</p>
             <p class="publication-meta">
               <span>{{ paper.venue }}</span>
-              <span class="publication-year">{{ paper.year }}</span>
             </p>
             <div class="pub-links">
               {% for link in paper.links %}
