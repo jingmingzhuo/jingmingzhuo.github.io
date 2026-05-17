@@ -1,6 +1,6 @@
 profile:
   name: "Jingming Zhuo"
-  role: "M.S. Student in ECE"
+  role: "M.S. Student"
   affiliation: "University of Washington"
   bio: 'I am currently a M.S. student at the University of Washington. At UW, I am fortunate to work with Ph.D. Student <a class="bio-name-link" href="https://rulinshao.github.io/" target="_blank" rel="noopener noreferrer">Rulin Shao</a>, Prof. <a class="bio-name-link" href="https://koh.pw/" target="_blank" rel="noopener noreferrer">Pang Wei Koh</a>, and Prof. <a class="bio-name-link" href="https://akariasai.com/" target="_blank" rel="noopener noreferrer">Akari Asai</a>. I used to intern at ByteDance Seed and Shanghai AI Laboratory. I obtained my B.S. in Computer Science from Jilin University.'
   avatar: "JZ"
@@ -9,6 +9,9 @@ profile:
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=C7RtP4oAAAAJ&hl=en&oi=ao"
       icon: "ai ai-google-scholar"
+    - label: "X"
+      url: "https://x.com/JingmingZhuo"
+      icon: "fa-brands fa-x-twitter"
     - label: "GitHub"
       url: "https://github.com/jingmingzhuo"
       icon: "fa-brands fa-github"
